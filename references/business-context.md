@@ -67,7 +67,7 @@ Key players to know when analyzing any external source:
 **Technology partners / developer ecosystem:**
 - **Profitbase** — dominant CRM for new-development sales teams (650+ developer clients in Russia); mediates developer presence on classifieds via API/data export; key integration partner and potential strategic intermediary
 - **Сделка.РФ** — mortgage aggregator (30+ banks, real-time rate updates)
-- **Trendagent, CMKet** — agent channel aggregators (growing channel)
+- **Trendagent, Нмаркет** — agent channel aggregators (growing channel)
 
 **Structural threats:**
 - Self-qualification tools for developers (AI agents like Gene AI) — reduce developer dependency on our lead gen
