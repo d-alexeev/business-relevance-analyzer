@@ -1,0 +1,26 @@
+{
+  "skill_name": "business-relevance-analyzer",
+  "evals": [
+    {
+      "id": 0,
+      "name": "competitor-ai-news-analysis",
+      "prompt": "Посмотри, пожалуйста, эту статью про немецкий proptech-стартап HomeQual, который поднял раунд под AI-first квалификацию лидов для застройщиков. Разберись, это реально сильный сигнал или просто хороший PR — что из этого применимо к нам, а что нет, и что мне с этим делать. Источник в файле source_1_competitor_news.md.",
+      "expected_output": "Analysis in Competitive / Market Signal mode. Should identify: (1) operational cost signal for call-center AI as real and worth testing, (2) revenue-side claims as weaker evidence, (3) transferability caveats for RU market, (4) concrete next steps (e.g. pilot scoping, cost modeling), (5) honest hype check — flagging self-reported anchor-customer numbers as thin evidence. Should NOT fill all functions — Product, Operations, Revenue Ops, maybe Strategy are genuinely implicated.",
+      "files": ["evals/materials/source_1_competitor_news.md"]
+    },
+    {
+      "id": 1,
+      "name": "internal-memo-review",
+      "prompt": "Коллега прислал черновик six-pager по seller monetization, секция Problem & Opportunity. Он собирается идти с этим к leadership в ноябре. Проведи review — что тут сильно, что слабо, где дыры в логике, что нужно усилить до того как нести руководству. Файл: source_2_strategy_memo.md.",
+      "expected_output": "Analysis in Internal Memo Review mode. Should identify: (1) strongest ideas (attribution track is well-grounded in churn data), (2) logic gaps (exclusivity pricing in Track 3 has antitrust mention but no scoping, lead-quality uplift ROI is hand-wavy, FTE-month totals don't map to clear timelines), (3) missing pieces (no discussion of interaction effects between tracks, no prioritization if budget constrained, no mention of call-center capacity to deliver Track 2), (4) contradictions/execution risks (premium lead pricing vs churn risk in lower quartile), (5) concrete suggestions for strengthening. Focus is on memo quality, not function mapping.",
+      "files": ["evals/materials/source_2_strategy_memo.md"]
+    },
+    {
+      "id": 2,
+      "name": "customer-call-transcript",
+      "prompt": "Вот транскрипт звонка колл-центра — покупатель новостройки, московский сегмент. Разбери: какие тут customer pains, возражения, сигналы для продукта, маркетинга, операций. Что реально важно, а что одноразовая история? source_3_call_transcript.md",
+      "expected_output": "Analysis in Customer Insight mode. Should identify: (1) price discrepancy between platform and developer site — Product + trust/operations issue, cites evidence, (2) trust in platform vs going direct to developer — recurring pattern worth exploring, (3) school/kindergarten infrastructure concerns — buyer-decision factor, possible Product/content opportunity, (4) ипотека conditions transparency — done well in this call, pattern to reinforce. Should distinguish what's likely systemic vs one-off. Should be clear about sample size (N=1). Function mapping: Product, Operations, Marketing genuinely implicated; Sales/BizDev likely not.",
+      "files": ["evals/materials/source_3_call_transcript.md"]
+    }
+  ]
+}
