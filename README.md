@@ -1,5 +1,7 @@
 # Business Relevance Analyzer
 
+*🌐 [Русская версия](README.ru.md)*
+
 An AI skill for **Claude** that turns any business source — news articles, competitor pages, strategy memos, call transcripts, partner emails — into a prioritized, actionable analysis for **your** business.
 
 It's not a summarizer. It's a senior analyst that:
