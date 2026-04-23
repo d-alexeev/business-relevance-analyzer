@@ -42,7 +42,7 @@ You can use this skill with **Claude Code** (the terminal version of Claude) or 
 
 2. **Clone or download this repo** somewhere on your computer:
    ```
-   git clone https://github.com/YOUR_USERNAME/business-relevance-analyzer.git
+   git clone https://github.com/d-alexeev/business-relevance-analyzer.git
    ```
    (Or click the green "Code" button on GitHub → "Download ZIP" and unzip it.)
 
